@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 200vh;
+}
+
+.adesivo {
+    width: 500px;
+    height: 50px;
+    background-color: tomato;
+    margin: 0 auto;
+    position: sticky;
+    top: 10px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.pai {
+    display: flex;
+    background-color: blue;
+    width: 600px;
+    height: 550px;
+    margin: 20px auto;
+    position: relative;
+    border-radius: 15px;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+
+}
+
+.div1 {
+    background-color: red;
+    width: 100px;
+    height: 90px;
+    text-align: center;
+    line-height: 80px;
+    position: relative;
+    margin-left: 84%;
+}
+
+.div2 {
+    background-color: red;
+    width: 100px;
+    height: 90px;
+    text-align: center;
+    line-height: 80px;
+    position: relative;
+    margin-left: 84%;
+}
+
+.div3 {
+    background-color: red;
+    width: 100px;
+    height: 90px;
+    text-align: center;
+    line-height: 80px;
+    position: relative;
+    margin-left: 84%;
+}
+
+.div4 {
+    background-color: red;
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    line-height: 90px;
+    position: relative;
+    margin-left: 84%;
+}
