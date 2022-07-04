@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,400,700');
+
+
+/* STYLE GLOBAL */
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	box-sizing:border-box;	
+}
+
+:root{
+	--bg-preto:rgb(0,0,0);
+	--nao-metal:rgb(185, 252, 1);
+	--gas-nobre:rgb(0, 162, 255);
+	--metal-alcalino:rgb(245,200,100);
+	--metal-alcalino-terroso:rgb(255, 238, 0);
+	--semimetal:rgb(109, 255, 175);
+	--halogenio:rgb(170,225,255);
+	--outros-metais:rgb(0, 197, 197);
+	--metal-transicao:rgb(255, 146, 146);
+	--lantanideo:rgb(241, 151, 33);
+	--actinidio:rgb(230,190,220);
+    --layout: rgb(255, 255, 255);
+    --transparente: rgb(0,0,0);
+}
+
+body{
+	font:1em/1 'Montserrat', sans-serif;
+	color:rgb(70, 61, 61);
+	text-align:center;
+	padding:1em 5%;
+	background:var(--bg-preto);	
+}
+
+.pai {
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+h2{
+    text-align: center;
+    color: White;
+}
+a{
+    text-decoration: none;
+    color: rgb(109, 86, 86);
+}
+/* FOREGROUND COLOR VARIABLES */
+.nao-metal{
+	background-color:var(--nao-metal);
+    border: 1px solid white;
+}
+	
+.gas-nobre{
+	background-color:var(--gas-nobre);
+    border: 1px solid white;
+}
+
+.metal-alcalino{
+	background-color:var(--metal-alcalino);
+    border: 1px solid white;
+}
+	
+.metal-alcalino-terroso{
+	background-color:var(--metal-alcalino-terroso);
+    border: 1px solid white;
+}
+	
+.semimetal{
+	background-color:var(--semimetal);
+    border: 1px solid white;
+}
+	
+.halogenio{
+	background-color:var(--halogenio);
+    border: 1px solid white;
+}
+	
+.outros-metais{
+	background-color:var(--outros-metais);
+    border: 1px solid white;
+}
+	
+.metal-transicao{
+	background-color:var(--metal-transicao);
+    border: 1px solid white;
+}
+	
+.lantanideo{
+	background-color:var(--lantanideo);
+    border: 1px solid white;
+}
+	
+.actinidio{
+	background-color:var(--actinidio);
+    border: 1px solid white;
+}
+
+.transparente{
+	background-color:var(--transparente);
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
+}
+.table1{
+    margin: auto;
+    width: 100%;
+}
+.table1 td:hover{
+    transition: .2s;
+    transform: scale(1.5);
+    cursor:pointer;
+    z-index: 2;
+}
+
+
+td {
+	border-radius:.40rem;
+}
+.num{
+    align-self: flex-start;
+    width: 90px;
+    font-size: 12px;
+}
+.sigla{
+    font-size: 20px;
+    text-align: center;
+}
+.elemento{
+    font-size: 12px;    
+    text-align: center;
+}
+.descricao{
+    text-align: center;
+    margin: auto;
+    border-collapse: collapse;
+}
+.descricao td{
+    border: 1px solid rgb(0, 0, 0);
+}
+.descricao th{
+    font-size: 25px;
+    background-color:#abe706;
+}
+.num{
+    width: 40px;
+}
+.sbl{
+    width: 120px;
+}
+.name{
+    width: 150px;
+}
+.ma{
+    width: 200px;
+}
+.descricao tr{
+    font-size: 20px;
+    background-color:#8dd4b9;
+}
+.legenda{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 50px 600px;
+    
+}
+.legenda p{
+    height: 25px;
+    line-height: 0px;
+}
+.td 
+
+.descricao tr:target{
+    background-color:#eccbe8;
+    transition: all 1s ease 0.015s;
+}
+
+.link {
+    color: aliceblue;
+    font-size: 2em;
+}
